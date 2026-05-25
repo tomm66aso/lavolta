@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>404 — Pagina non trovata | da I Gemelli · Portofino</title>
+<meta name="robots" content="noindex"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;1,9..144,200;1,9..144,300&family=Jost:wght@400;500&display=swap" onload="this.onload=null;this.rel='stylesheet'"/>
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,200;1,9..144,200;1,9..144,300&family=Jost:wght@400;500&display=swap"/></noscript>
+<link rel="stylesheet" href="style.css?v=28"/>
+<style>
+.e404{
+  min-height:100svh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;
+  text-align:center;padding:6rem 2rem;position:relative;overflow:hidden;
+}
+.e404__num{
+  font-family:var(--serif);font-size:clamp(10rem,30vw,24rem);
+  font-weight:200;font-style:italic;line-height:.85;
+  color:transparent;-webkit-text-stroke:1px rgba(201,169,110,.2);
+  letter-spacing:-.05em;font-variation-settings:"opsz" 144;
+  position:absolute;top:50%;left:50%;
+  transform:translate(-50%,-50%);
+  pointer-events:none;user-select:none;
+  animation:fadeIn 1s var(--ease) .3s both;
+}
+.e404__content{position:relative;z-index:2}
+.e404__pre{
+  font-size:.5rem;font-weight:500;letter-spacing:.5em;text-transform:uppercase;
+  color:var(--gold);margin-bottom:1.5rem;
+  display:flex;align-items:center;justify-content:center;gap:1rem;
+  animation:fadeUp .7s var(--ease) .4s both;
+}
+.e404__title{
+  font-family:var(--serif);font-size:clamp(2rem,5vw,4.5rem);
+  font-weight:200;font-style:italic;color:var(--cream);
+  letter-spacing:-.025em;font-variation-settings:"opsz" 144;
+  margin-bottom:1.2rem;
+  animation:fadeUp .8s var(--ease) .55s both;
+}
+.e404__title em{color:var(--gold);font-style:normal}
+.e404__sub{
+  font-size:.9rem;font-weight:400;color:rgba(245,241,232,.55);
+  max-width:42ch;margin:0 auto 3rem;line-height:1.9;
+  animation:fadeUp .8s var(--ease) .7s both;
+}
+.e404__actions{
+  display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;
+  animation:fadeUp .8s var(--ease) .85s both;
+}
+.e404__coord{
+  position:absolute;bottom:3rem;left:50%;transform:translateX(-50%);
+  font-size:.44rem;font-weight:400;letter-spacing:.44em;text-transform:uppercase;
+  color:rgba(201,169,110,.3);white-space:nowrap;
+  animation:fadeIn 1s var(--ease) 1.2s both;
+}
+</style>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+<link rel="manifest" href="/site.webmanifest"/>
+<meta name="theme-color" content="#07101f"/>
+<link rel="canonical" href="https://daigemelli.com/404"/>
+<meta name="description" content="Pagina non trovata — da I Gemelli · Portofino"/>
+</head>
+<body>
+<nav class="nav" aria-label="Principale">
+  <a class="nav__brand" href="/" aria-label="da I Gemelli Portofino" style="font-family:var(--serif);font-size:1.1rem;font-weight:300;font-style:italic;color:var(--cream);letter-spacing:.03em;font-variation-settings:'opsz' 60">
+    da I Gemelli
+    <div style="font-size:.42rem;font-weight:400;letter-spacing:.28em;text-transform:uppercase;color:rgba(201,169,110,.75);margin-top:.25rem">Restaurant &amp; Lounge di Paolo e Matteo</div>
+  </a>
+  <div class="nav__right">
+    <a class="nav__cta" data-mag href="/"><span>← Torna alla home</span></a>
+  </div>
+</nav>
+
+<main class="e404" aria-label="Errore 404">
+  <p class="e404__num" aria-hidden="true">404</p>
+  <div class="e404__content">
+    <p class="e404__pre"><span class="hline"></span> Pagina non trovata <span class="hline"></span></p>
+    <h1 class="e404__title">La corrente ti ha<br/>portato <em>fuori rotta</em></h1>
+    <p class="e404__sub">
+      Questa pagina non esiste o è stata spostata.<br/>
+      Torna al porto — ti aspettiamo a Portofino.
+    </p>
+    <div class="e404__actions">
+      <a class="btn btn--gold" data-mag href="/"><span>Torna alla Home</span></a>
+      <a class="btn btn--outline" data-mag href="/contatti"><span>Contatti</span></a>
+    </div>
+  </div>
+  <p class="e404__coord" aria-hidden="true">N 44.30° · E 9.21° · Portofino</p>
+</main>
+
+<script src="main.js?v=28" defer></script>
+</body>
+</html>

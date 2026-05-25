@@ -1,0 +1,13 @@
+da I Gemelli — v27
+Generato: 2026-05-24
+
+Modifiche v27:
+- Loft rimosso dal menu di navigazione (desktop + mobile)
+  La pagina loft.html è ancora accessibile via URL diretto se necessario
+- Cache busting su style.css?v=27 e main.js?v=27
+- Verifica versione: aprire index.html e cercare nella source "v27"
+
+Per testare correttamente:
+1. Cancellare i file vecchi dal server prima di caricare
+2. Hard refresh nel browser: Cmd+Shift+R (Mac) / Ctrl+Shift+R (Win)
+3. O testare in finestra in incognito

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /en/404.html
+Disallow: /privacy
+Allow: /
+
+Sitemap: https://daigemelli.com/sitemap.xml
